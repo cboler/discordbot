@@ -33,9 +33,9 @@ const botConfig: IBotConfig = {
   botCommands: [
     "help", "ping", "echo"
   ],
-  botActivity: "The Game",
+  botActivity: "Gonking",
   botUsername: "Discord Bot",
-  cmdPrefix: prefix ? prefix : "/"
+  cmdPrefix: prefix ? prefix : "$"
 };
 
 new Bot().start(
